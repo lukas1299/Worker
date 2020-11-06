@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Globalization;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Worker.Application.Queries;
+using Worker.Infrastructure.Queries.Handlers;
 
 namespace Worker.API.Controllers
 {
@@ -8,6 +11,16 @@ namespace Worker.API.Controllers
     [Route("api")]
     public class HomeController : ControllerBase
     {
-        public async Task<ActionResult> GetDate() => Ok(DateTime.Now.ToString());
+        private readonly IAboutMeHandler _aboutMeHandler;
+
+        public HomeController(IAboutMeHandler aboutMeHandler)
+        {
+            _aboutMeHandler = aboutMeHandler;
+        }
+
+        public async Task<ActionResult> GetDate() => Ok(DateTime.Now.ToString(CultureInfo.InvariantCulture));
+
+        [HttpGet("about-me")]
+        public async Task<ActionResult> GetAboutMe() => Ok(await _aboutMeHandler.QueryAsync(new AboutMe()));
     }
 }

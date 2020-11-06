@@ -13,6 +13,8 @@ namespace Worker.Infrastructure
         {
             serviceCollection.AddTransient<IWorkerRepository, WorkerRepository>();
             serviceCollection.AddTransient<IGetWorkersHandler, GetWorkersHandler>();
+            serviceCollection.AddTransient<IAboutMeHandler, AboutMeHandler>();
+            
             return serviceCollection;
         }
 
