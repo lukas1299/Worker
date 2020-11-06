@@ -1,0 +1,14 @@
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Infrastructure.deps.json
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Infrastructure.dll
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Infrastructure.pdb
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Application.dll
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Core.dll
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Application.pdb
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/bin/Debug/netcoreapp3.1/Worker.Core.pdb
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.csprojAssemblyReference.cache
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.AssemblyInfoInputs.cache
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.AssemblyInfo.cs
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.csproj.CoreCompileInputs.cache
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.csproj.CopyComplete
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.dll
+/home/macceb/RiderProjects/Worker/Worker.Infrastructure/obj/Debug/netcoreapp3.1/Worker.Infrastructure.pdb

@@ -1,0 +1,9 @@
+/home/macceb/RiderProjects/Worker/Worker.Core/bin/Debug/netcoreapp3.1/Worker.Core.deps.json
+/home/macceb/RiderProjects/Worker/Worker.Core/bin/Debug/netcoreapp3.1/Worker.Core.dll
+/home/macceb/RiderProjects/Worker/Worker.Core/bin/Debug/netcoreapp3.1/Worker.Core.pdb
+/home/macceb/RiderProjects/Worker/Worker.Core/obj/Debug/netcoreapp3.1/Worker.Core.csprojAssemblyReference.cache
+/home/macceb/RiderProjects/Worker/Worker.Core/obj/Debug/netcoreapp3.1/Worker.Core.AssemblyInfoInputs.cache
+/home/macceb/RiderProjects/Worker/Worker.Core/obj/Debug/netcoreapp3.1/Worker.Core.AssemblyInfo.cs
+/home/macceb/RiderProjects/Worker/Worker.Core/obj/Debug/netcoreapp3.1/Worker.Core.csproj.CoreCompileInputs.cache
+/home/macceb/RiderProjects/Worker/Worker.Core/obj/Debug/netcoreapp3.1/Worker.Core.dll
+/home/macceb/RiderProjects/Worker/Worker.Core/obj/Debug/netcoreapp3.1/Worker.Core.pdb

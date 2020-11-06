@@ -20,7 +20,47 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="out" t="Include">
+          <e p="DnsClient.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Server.Kestrel.Https.dll" t="Include" />
+          <e p="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll" t="Include" />
+          <e p="MongoDB.Bson.dll" t="Include" />
+          <e p="MongoDB.Driver.Core.dll" t="Include" />
+          <e p="MongoDB.Driver.dll" t="Include" />
+          <e p="MongoDB.Libmongocrypt.dll" t="Include" />
+          <e p="Newtonsoft.Json.dll" t="Include" />
+          <e p="SharpCompress.dll" t="Include" />
+          <e p="Worker.API" t="Include" />
+          <e p="Worker.API.deps.json" t="Include" />
+          <e p="Worker.API.dll" t="Include" />
+          <e p="Worker.API.pdb" t="Include" />
+          <e p="Worker.API.runtimeconfig.json" t="Include" />
+          <e p="Worker.Application.dll" t="Include" />
+          <e p="Worker.Application.pdb" t="Include" />
+          <e p="Worker.Core.dll" t="Include" />
+          <e p="Worker.Core.pdb" t="Include" />
+          <e p="Worker.Infrastructure.dll" t="Include" />
+          <e p="Worker.Infrastructure.pdb" t="Include" />
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="runtimes" t="Include">
+            <e p="win" t="Include">
+              <e p="native" t="Include">
+                <e p="libzstd.dll" t="Include" />
+                <e p="snappy32.dll" t="Include" />
+                <e p="snappy64.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="web.config" t="Include" />
+        </e>
       </e>
       <e p="Worker.Application" t="IncludeRecursive">
         <e p="Commands" t="Include">
@@ -45,7 +85,13 @@
         </e>
         <e p="Worker.Application.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="Worker.Core" t="IncludeRecursive">
         <e p="Entities" t="Include">
@@ -53,7 +99,13 @@
         </e>
         <e p="Worker.Core.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="Worker.Infrastructure" t="IncludeRecursive">
         <e p="Extension.cs" t="Include" />
@@ -61,6 +113,9 @@
           <e p="Documents" t="Include">
             <e p="WorkerDocument.cs" t="Include" />
           </e>
+        </e>
+        <e p="Options" t="Include">
+          <e p="MongoOptions.cs" t="Include" />
         </e>
         <e p="Queries" t="Include">
           <e p="Handlers" t="Include">
@@ -71,11 +126,21 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="Abstract" t="Include">
+            <e p="IMongoClientProvider.cs" t="Include" />
+          </e>
+          <e p="MongoClientProvider.cs" t="Include" />
           <e p="WorkerRepository.cs" t="Include" />
         </e>
         <e p="Worker.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="Worker.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

@@ -5,16 +5,23 @@ using MongoDB.Driver;
 using Worker.Application.DTOs;
 using Worker.Application.Queries;
 using Worker.Infrastructure.Mongo.Documents;
+using Worker.Infrastructure.Services.Abstract;
 
 namespace Worker.Infrastructure.Queries.Handlers
 {
     public class GetWorkersHandler : IGetWorkersHandler
     {
+        private readonly IMongoClientProvider _mongoClientProvider;
+
+        public GetWorkersHandler(IMongoClientProvider mongoClientProvider)
+        {
+            _mongoClientProvider = mongoClientProvider;
+        }
+
         public async Task<IEnumerable<WorkerDto>> QueryAsync(GetWorkers query)
         {
-            MongoClient client = new MongoClient(
-                "mongodb://localhost:27017"
-            );
+            MongoClient client = _mongoClientProvider.GetMongoClient();
+            
             IMongoDatabase database = client.GetDatabase("test");
             
             IMongoCollection<WorkerDocument> collection = database.GetCollection<WorkerDocument>("workers");

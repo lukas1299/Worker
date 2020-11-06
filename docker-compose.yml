@@ -1,0 +1,12 @@
+version: "3"
+services:
+  worker:
+    image: example23
+    ports:
+      - "5000:5000"
+    links:
+      - mongo
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"

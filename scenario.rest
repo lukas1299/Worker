@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/workers
+Content-Type: application/json
+
+{
+  "FirstName" : "Łukasz",
+  "LastName" : "Matusik",
+  "Age" : 20
+}
+
+###
+GET http://localhost:5000/api/
+###
+GET http://localhost:5000/api/workers
