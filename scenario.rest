@@ -2,7 +2,7 @@ POST http://localhost:5000/api/workers
 Content-Type: application/json
 
 {
-  "FirstName" : "Łukasz",
+  "FirstName" : "Łukaszniedzialalalalalala",
   "LastName" : "Matusik",
   "Age" : 20
 }
