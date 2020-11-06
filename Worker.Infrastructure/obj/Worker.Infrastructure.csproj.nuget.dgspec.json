@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Infrastructure\\Worker.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Application\\Worker.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Application\\Worker.Application.csproj",
+        "projectName": "Worker.Application",
+        "projectPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Application\\Worker.Application.csproj",
+        "packagesPath": "C:\\Users\\wenze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wenze\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Core\\Worker.Core.csproj": {
+                "projectPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Core\\Worker.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\wenze\\.dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Core\\Worker.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Core\\Worker.Core.csproj",
+        "projectName": "Worker.Core",
+        "projectPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Core\\Worker.Core.csproj",
+        "packagesPath": "C:\\Users\\wenze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wenze\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\wenze\\.dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Infrastructure\\Worker.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Infrastructure\\Worker.Infrastructure.csproj",
+        "projectName": "Worker.Infrastructure",
+        "projectPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Infrastructure\\Worker.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\wenze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wenze\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Application\\Worker.Application.csproj": {
+                "projectPath": "C:\\Users\\wenze\\RiderProjects\\Worker\\Worker.Application\\Worker.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\wenze\\.dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

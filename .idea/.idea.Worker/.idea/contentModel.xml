@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\wenze\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\wenze\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Worker.-1689730172.00" t="ExcludeRecursive" />
+    <e p="C:\Users\wenze\RiderProjects\Worker" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Worker.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="WorkerController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AddWorkerRequestModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Worker.API.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Worker.Application" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="AddWorker.cs" t="Include" />
+          <e p="Handlers" t="Include">
+            <e p="AddWorkerHandler.cs" t="Include" />
+            <e p="AddWorkerHandlerDummy.cs" t="Include" />
+            <e p="IAddWorkerHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DTOs" t="Include">
+          <e p="WorkerDTO.cs" t="Include" />
+        </e>
+        <e p="Extension.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Queries" t="Include">
+          <e p="GetWorkers.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IWorkerRepository.cs" t="Include" />
+        </e>
+        <e p="Worker.Application.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Worker.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="WorkerEntity.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Worker.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Worker.Infrastructure" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extension.cs" t="Include" />
+        <e p="Mongo" t="Include">
+          <e p="Documents" t="Include">
+            <e p="WorkerDocument.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Worker.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Queries" t="Include">
+          <e p="Handlers" t="Include">
+            <e p="GetWorkersHandler.cs" t="Include" />
+            <e p="IGetWorkersHandler.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="WorkerRepository.cs" t="Include" />
+        </e>
+        <e p="Worker.Infrastructure.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Worker.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

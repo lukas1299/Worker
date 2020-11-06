@@ -1,0 +1,16 @@
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Infrastructure.deps.json
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Infrastructure.dll
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Infrastructure.pdb
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.csprojAssemblyReference.cache
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.AssemblyInfo.cs
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.csproj.CopyComplete
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.dll
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\obj\Debug\netcoreapp3.1\Worker.Infrastructure.pdb
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Application.dll
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Core.dll
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Application.pdb
+C:\Users\wenze\RiderProjects\Worker\Worker.Infrastructure\bin\Debug\netcoreapp3.1\Worker.Core.pdb
